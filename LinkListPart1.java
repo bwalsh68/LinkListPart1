@@ -223,7 +223,7 @@ public class LinkListPart1<T> {
         front = head;
         temp = head;// start at the beginning
         while (temp.next != null){
-            
+            System.out.println("Looking at "+ temp.element);
             if (temp.next.element.equals(e)){
                 System.out.println(temp.next.element);
                 System.out.println("Found !!!");
